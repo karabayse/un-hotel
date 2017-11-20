@@ -1,3 +1,34 @@
 h1 {
-  color: #9AC0CD;
+  /*color: #9AC0CD;*/
+  text-align: center;
+  font-family: AbrilFatface;
+}
+
+/*body {
+  background-color: #EEEEE0;
+}*/
+
+.nav.navbar-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) {
+ .nav.navbar-nav {
+     float: none;
+ }
+}
+
+.backgroundDiv {
+  /*margin-top: 30px;*/
+  min-height: 853px;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.05),
+      rgba(0, 0, 0, 0.05)
+    ),
+  url("../styles/images/paris.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }

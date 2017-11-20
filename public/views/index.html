@@ -9,22 +9,26 @@
     <title>un hotel</title>
   </head>
   <body>
+    <div class="backgroundDiv">
     <header class="header"><h1>un hotel tres francais</h1></header>
 
     <base href="/">
 
       <main ng-view></main>
 
-      <nav class="navbar navbar-inverse navbar-static-top">
-      <div class="navbar-header">
-        <ul class="nav navbar-nav">
-          <li><a href="/home" class="active-home">home</a></li>
-          <li><a href="/history" class="homeNavbar">history</a></li>
-          <li><a href="/rooms" class="homeNavbar">rooms</a></li>
-          <li><a href="/restaurant" class="homeNavbar">restaurant</a></li>
-        </ul>
-      </div>
-    </nav>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <ul class="nav navbar-nav">
+              <li><a href="/home" class="active-home">home</a></li>
+              <li><a href="/history" class="homeNavbar">history</a></li>
+              <li><a href="/rooms" class="homeNavbar">rooms</a></li>
+              <li><a href="/restaurant" class="homeNavbar">restaurant</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
+    </div>
   </body>
 </html>
