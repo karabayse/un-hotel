@@ -8,10 +8,11 @@ h1 {
   background-color: #EEEEE0;
 }*/
 
-.nav.navbar-nav {
+.nav navbar-nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  border-radius: 0px;
 }
 @media (min-width: 768px) {
  .nav.navbar-nav {
@@ -26,7 +27,7 @@ h1 {
       rgba(0, 0, 0, 0.05),
       rgba(0, 0, 0, 0.05)
     ),
-  url("../styles/images/paris.jpg") no-repeat center center fixed;
+  url("../styles/images/paris-trees.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
