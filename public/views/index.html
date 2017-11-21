@@ -10,13 +10,11 @@
     <script src="client.js" charset="utf-8"></script>
     <title>un hotel</title>
   </head>
-  <body>
-    <div class="backgroundDiv">
+  <body ng-app="myApp">
+
     <header class="header"><h1>un hotel tres francais</h1></header>
 
     <base href="/">
-
-      <main ng-view></main>
 
       <nav class="navbar navbar-inverse navbar-static-top">
         <div class="container-fluid">
@@ -29,8 +27,11 @@
             </ul>
           </div>
         </div>
+
+        <main ng-view></main>
       </nav>
 
-    </div>
+
+
   </body>
 </html>
