@@ -13,6 +13,7 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
   border-radius: 0px;
+  margin-bottom: 0;
 }
 @media (min-width: 768px) {
  .nav.navbar-nav {
@@ -21,7 +22,7 @@ h1 {
 }
 
 .backgroundDiv {
-  /*margin-top: 30px;*/
+  margin-top: -2em;
   min-height: 853px;
   background: linear-gradient(
       rgba(0, 0, 0, 0.05),

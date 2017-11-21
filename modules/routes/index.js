@@ -7,7 +7,7 @@ var bodyParser = require('body-parser');
 router.use(bodyParser.urlencoded({extended: true}));
 router.use(bodyParser.json());
 
-router.get('/', function(req, res) {
+router.get('/*', function(req, res) {
   console.log('base url hit');
   res.sendFile(path.resolve('public/views/index.html'));
 }); // end router.get for index.html
