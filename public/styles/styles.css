@@ -1,4 +1,4 @@
-h1 {
+header {
   /*color: #9AC0CD;*/
   text-align: center;
   font-family: AbrilFatface;
@@ -8,7 +8,7 @@ h1 {
   background-color: #EEEEE0;
 }*/
 
-.nav navbar-nav {
+/*.nav navbar-nav {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -19,7 +19,16 @@ h1 {
  .nav.navbar-nav {
      float: none;
  }
-}
+}*/
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    > li {
+      float: none;
+      display: inline-block;
+    }
+  }
 
 .backgroundDiv {
   margin-top: -2em;
