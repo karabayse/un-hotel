@@ -6,10 +6,9 @@
 <figcaption><h4>chambre d'hôtel</h4></figcaption>
 </figure>
 <br>
-<br>
 
 <ins><h6>PRIX</h6></ins>
-<table>
+<!-- <table>
   <tr>
     <th></th>
     <th>1 night</th>
@@ -25,11 +24,33 @@
 
 </table>
 <br>
-<br>
+<br> -->
 
 <p>Roi.............600 €</p>
 <p>Reine.........500 €</p>
 <p>Double.......400 €</p>
+<br>
+
+<div class="reservations">
+<ins><h6>RÉSERVATIONS</h6></ins>
+<form action="index.html" method="post">
+  <p>Check-In Date  <input type="date" id="date" ng-model="roc.dateInput"></p>
+  <p>Check-out Date <input type="date" id="date" ng-model="roc.dateInput"></p>
+  <br>
+
+  Le Lit<div class="dropdown">
+  <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+  <span class="caret"></span></button>
+  <ul class="dropdown-menu">
+    <li>Roi</li>
+    <li>Reine</li>
+    <li>Double</li>
+  </ul>
+</div>
+
+</form>
+<br>
+</div>
 
 <p><a href="#top">Top</a></p>
 
