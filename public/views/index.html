@@ -12,22 +12,22 @@
   </head>
   <body ng-app="myApp">
 
-    <header class="header"><h1>un hotel tres français</h1></header>
+    <header class="header" id="top"><h1>un hotel tres français</h1></header>
 
     <base href="/">
 
       <nav class="navbar navbar-inverse navbar-static-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
+        <!-- <div class="container-fluid"> -->
+          <!-- <div class="navbar-header"> -->
             <ul class="nav navbar-nav">
-              <li><a href="/home" class="active-home">home</a></li>
-              <li><a href="/history" class="homeNavbar">history</a></li>
-              <li><a href="/rooms" class="homeNavbar">rooms</a></li>
-              <li><a href="/restaurant" class="homeNavbar">restaurant</a></li>
+              <li><a href="/home">home</a></li>
+              <li><a href="/history">history</a></li>
+              <li><a href="/rooms">rooms</a></li>
+              <li><a href="/restaurant">restaurant</a></li>
             </ul>
-          </div>
-        </div>
-        </nav>
+          <!-- </div> -->
+        <!-- </div> -->
+      </nav>
 
       <main ng-view></main>
 
