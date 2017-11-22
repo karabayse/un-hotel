@@ -34,11 +34,10 @@
 <div class="reservations">
 <ins><h6>RÉSERVATIONS</h6></ins>
 <form action="index.html" method="post">
-  <p>Check-In Date  <input type="date" id="date" ng-model="roc.dateInput"></p>
-  <p>Check-out Date <input type="date" id="date" ng-model="roc.dateInput"></p>
-  <br>
+  <p><i>Check-In Date</i>  <input type="date" id="date" ng-model="roc.dateInput"></p>
+  <p><i>Check-out Date</i> <input type="date" id="date" ng-model="roc.dateInput"></p>
 
-  Le Lit<div class="dropdown">
+  <!-- Le Lit<div class="dropdown">
   <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
   <span class="caret"></span></button>
   <ul class="dropdown-menu">
@@ -46,7 +45,23 @@
     <li>Reine</li>
     <li>Double</li>
   </ul>
-</div>
+</div> -->
+
+<p>
+<i>Le Lit</i> <select class="bed" name="bed">
+  <option value="king">Roi</option>
+  <option value="queen">Reine</option>
+  <option value="double">Double</option>
+</select>
+</p>
+
+<p>
+<i>Journées </i><select class="days" name="days">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select>
+</p>
 
 </form>
 <br>
