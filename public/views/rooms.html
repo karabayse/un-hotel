@@ -7,6 +7,8 @@
 </figure>
 <br>
 
+<!-- <legend> -->
+<!-- <fieldset> -->
 <ins><h6>PRIX</h6></ins>
 <!-- <table>
   <tr>
@@ -29,13 +31,15 @@
 <p>Roi.............600 €</p>
 <p>Reine.........500 €</p>
 <p>Double.......400 €</p>
+<!-- </fieldset> -->
+<!-- </legend> -->
 <br>
 
 <div class="reservations">
 <ins><h6>RÉSERVATIONS</h6></ins>
 <form action="index.html" method="post">
-  <p><i>Check-In Date</i>  <input type="date" id="date" ng-model="roc.dateInput"></p>
-  <p><i>Check-out Date</i> <input type="date" id="date" ng-model="roc.dateInput"></p>
+  <p><i>Check-In Date</i>  <input type="date" id="date" ng-model="roc.dateInput" required="required"></p>
+  <p><i>Check-out Date</i> <input type="date" id="date" ng-model="roc.dateInput" required="required"></p>
 
   <!-- Le Lit<div class="dropdown">
   <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
@@ -48,7 +52,7 @@
 </div> -->
 
 <p>
-<i>Le Lit</i> <select class="bed" name="bed">
+<i>Le Lit</i> <select class="bed" name="bed" required="required">
   <option value="king">Roi</option>
   <option value="queen">Reine</option>
   <option value="double">Double</option>
@@ -56,14 +60,16 @@
 </p>
 
 <p>
-<i>Journées </i><select class="days" name="days">
+<i>Journées </i><select class="days" name="days" required="required">
   <option value="1">1</option>
   <option value="2">2</option>
   <option value="3">3</option>
 </select>
 </p>
 
-<p><input type="submit" name="submit" value="Soumettre"</p>
+<p><input type="submit" name="submit" value="Soumettre" /></p>
+
+<p><input type="image" name="book" src="styles/images/book.svg" width="100" height="100" /></p>
 
 </form>
 <br>
