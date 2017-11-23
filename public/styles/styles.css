@@ -1,14 +1,14 @@
 /**** SITE ****/
 
 header {
-  /*text-align: center;*/
-  margin-left: 500px;
+  text-align: center;
+  /*margin-left: 500px;*/
   font-family: AbrilFatface;
 }
 
 .nav {
   text-align: center;
-  margin-left: 500px;
+  margin-left: 680px;
 }
 
 
@@ -35,5 +35,13 @@ header {
 
 .reservations {
   border: groove;
-  margin-right: 500px;
+  margin-right: 535px;
+}
+
+
+
+/**** RESTAURANT ****/
+
+.glyphicon {
+   font-family:'Glyphicons Halflings' !important;
 }
