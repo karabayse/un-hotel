@@ -14,6 +14,9 @@ Many developers choose to reset these default values so that they can truly work
 The code in the example above resets the default margin and padding values of all HTML elements. It is often the first CSS rule in an external stylesheet.
 
 Note that both properties are both set to 0. When these properties are set to 0, they do not require a unit of measurement.*/
+
+
+
 /**** SITE ****/
 
 header {
@@ -78,6 +81,12 @@ margin: 0 auto; will center the divs in their containing elements. The 0 sets th
 The div elements in the example above should center within an element that fills the page, but this doesn't occur. Why?
 
 In order to center an element, a width must be set for that element. Otherwise, the width of the div will be automatically set to the full width of its containing element, like the <body>, for example. It's not possible to center an element that takes up the full width of the page.*/
+
+footer {
+  text-align: center;
+}
+
+
 
 /**** HOME ****/
 
