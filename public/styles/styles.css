@@ -40,14 +40,27 @@ p {
 
 .top {
   text-align: center;
-  background: red;
-  border: 1px solid red;
+  background: #8A360F;
   border-radius: 3px;
-  color: white;
   display: inline-block;
   text-decoration: none;
-  padding: 14px;
+  padding: 10px;
+  /*margin: 0 auto;*/
 }
+
+.topLink {
+  color: white;
+}
+
+/*div.top {
+  width: 400px;
+  margin: 0 auto;
+}
+margin: 0 auto; will center the divs in their containing elements. The 0 sets the top and bottom margins to 0 pixels. The auto value instructs the browser to adjust the left and right margins until the element is centered within its containing element.
+
+The div elements in the example above should center within an element that fills the page, but this doesn't occur. Why?
+
+In order to center an element, a width must be set for that element. Otherwise, the width of the div will be automatically set to the full width of its containing element, like the <body>, for example. It's not possible to center an element that takes up the full width of the page.*/
 
 /**** HOME ****/
 
@@ -78,6 +91,20 @@ p {
   /*margin refers to space directly outside of the box */
 }
 
+
+
+/**** HISTORY ****/
+
+.learnMore {
+  text-align: center;
+}
+
+.learnMoreLink {
+  color: grey;
+}
+
+
+
 /**** ROOMS ****/
 
 #roomsContainer,
@@ -85,14 +112,18 @@ p {
   /*background-color: #FFEFD5;*/
 }
 
+figcaption {
+  color: grey;
+}
+
 .reservations {
-  border: 5px groove coral;
-  border-radius: 100%;
+  border: 5px groove grey;
+  /*border-radius: 100%;*/
   text-align: center;
   height: 40%;
   left: 10%;
   margin: 20px auto;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
   position: static;
   width: 80%;
 }
@@ -165,5 +196,5 @@ th, td {
   position: relative;
   top: 80%;
   width: 60%;
-  opacity: 0.75;
+  opacity: 0.50;
 }
