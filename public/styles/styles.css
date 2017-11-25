@@ -38,6 +38,10 @@ header {
   margin-right: 535px;
 }
 
+table, td {
+  border: 1px solid orange;
+}
+
 
 
 /**** RESTAURANT ****/
