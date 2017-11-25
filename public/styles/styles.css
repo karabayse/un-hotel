@@ -61,6 +61,7 @@ p {
   display: inline-block;
   text-decoration: none;
   padding: 10px;
+  float: right;
   /*margin: 0 auto;*/
 }
 
