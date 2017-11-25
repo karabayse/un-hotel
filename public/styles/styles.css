@@ -2,7 +2,6 @@
 
 header {
   text-align: center;
-  /*margin-left: 500px;*/
   font-family: AbrilFatface;
 }
 
@@ -11,7 +10,33 @@ header {
   margin-left: 685px;
 }
 
+/*.nav li {
+  align-content: center;
+}*/
 
+/*chaining -> makes all h1 elements with the class hotel cursive
+h1.hotel {
+  font-family: cursive;
+}*/
+
+/*nesting -> targets all h1 elements nested inside elements with class hotel
+hotel h5 {
+  font-family: cursive;
+}*/
+
+
+/*!important. !important can be applied to specific attributes instead of full rules. It will override any style no matter how specific it is. As a result, it should almost never be used. Once !important is used, it is very hard to override.
+
+The syntax of !important in CSS looks like this:
+
+p {
+  color: blue !important;
+}
+
+
+.main p {
+  color: red;
+}*/
 
 /**** HOME ****/
 
@@ -32,6 +57,11 @@ header {
 
 
 /**** ROOMS ****/
+
+#roomsContainer,
+.reservations {
+  /*background-color: #FFEFD5;*/
+}
 
 .reservations {
   border: groove;
@@ -90,4 +120,27 @@ th, td {
 
 .glyphicon {
    font-family:'Glyphicons Halflings' !important;
+}
+
+.vegetablesImage {
+  background-image: url("/styles/images/vegetables.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.vegetablesCaption {
+  background-color: white;
+  color: black;
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 14px;
+  margin-left: 20px;
+  padding: 10px;
+  position: relative;
+  top: 80%;
+  width: 60%;
+  opacity: 0.75;
 }
