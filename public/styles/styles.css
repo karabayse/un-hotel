@@ -38,6 +38,17 @@ p {
   color: red;
 }*/
 
+.top {
+  text-align: center;
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  padding: 14px;
+}
+
 /**** HOME ****/
 
 .backgroundDiv {
@@ -54,7 +65,18 @@ p {
   background-size: cover;
 }
 
-
+.welcome {
+  text-align: center;
+  opacity: .75;
+  /*border: 3px solid grey;*/
+           /*these 4 values correspond to the amount of padding in a clockwise rotation */
+  /*padding: 6px 11px 4px 9px;*/
+  /*if top and bottom values for padding equal each other, and left and right
+  values equal each other, use:  padding: 5px 10px;*/
+  margin-left: 200px;
+  margin-right: 200px;
+  /*margin refers to space directly outside of the box */
+}
 
 /**** ROOMS ****/
 
@@ -64,8 +86,8 @@ p {
 }
 
 .reservations {
-  border: groove;
-  /*margin-right: 535px;*/
+  border: 5px groove coral;
+  border-radius: 100%;
   text-align: center;
   height: 40%;
   left: 10%;
@@ -126,6 +148,7 @@ th, td {
   background-image: url("/styles/images/vegetables.jpg");
   background-size: cover;
   background-position: center;
+  /*background-position: bottom center;*/
   height: 300px;
 }
 
