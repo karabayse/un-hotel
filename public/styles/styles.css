@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 /*All major web browsers have a default stylesheet they use in the absence of an external stylesheet.
@@ -16,6 +17,12 @@ The code in the example above resets the default margin and padding values of al
 Note that both properties are both set to 0. When these properties are set to 0, they do not require a unit of measurement.*/
 
 
+/*box-sizing: border-box; -->
+In the default box model, box dimensions are affected by border thickness and padding.
+The box-sizing property controls the box model used by the browser.
+The default value of the box-sizing property is content-box.
+The value for the new box model is border-box.
+The border-box model is not affected by border thickness or padding.*/
 
 /**** SITE ****/
 
@@ -84,6 +91,9 @@ In order to center an element, a width must be set for that element. Otherwise, 
 
 footer {
   text-align: center;
+  color: white;
+  background-color: black;
+  height: 100px;
 }
 
 
