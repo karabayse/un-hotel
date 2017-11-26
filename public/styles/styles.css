@@ -234,11 +234,12 @@ th, td {
 }
 
 .vegetablesImage {
-  background-image: url("/styles/images/vegetables.jpg");
-  background-size: cover;
+  background-image: url("/styles/images/vegetables2.jpg");
+  /*background-size: cover;*/
   background-position: center;
   /*background-position: bottom center;*/
   height: 300px;
+  width: 300px;
 }
 
 .vegetablesCaption {
