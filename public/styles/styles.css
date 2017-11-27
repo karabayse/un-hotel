@@ -153,6 +153,10 @@ footer {
 
 /**** HISTORY ****/
 
+.video {
+  text-align: center;
+}
+
 .learnMore {
   text-align: center;
 }
