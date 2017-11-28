@@ -12,6 +12,7 @@ app.use(express.static('public'));
 app.use('/', index);
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
+app.use(('/reservation', reservation));
 
 // globals
 var port = process.env.PORT || 3333;
