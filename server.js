@@ -4,6 +4,7 @@ var app = express();
 var index = require('./modules/routes/index');
 var path = require('path');
 var bodyParser = require('body-parser');
+var reservation = require('./modules/routes/reservation');
 var mongoose = require('mongoose');
 
 // uses
