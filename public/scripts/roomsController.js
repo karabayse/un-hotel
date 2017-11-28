@@ -14,12 +14,13 @@ myApp.controller('RoomsController', function(RoomsService) {
     }; // end reservationObject
     console.log('reservationObject:', reservationObject);
     RoomsService.reservation(reservationObject).then(function() {
+      sweetAlert("Chambre réservé!");
       vm.checkInInput = '';
       vm.checkOutInput = '';
       vm.bedInput = '';
       vm.nightsInput = '';
     }); // end RoomsService.reservation
-  }; // end reservation function 
+  }; // end reservation function
 
 
 
