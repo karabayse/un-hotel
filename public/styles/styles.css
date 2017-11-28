@@ -55,7 +55,7 @@ header {
 .nav {
   display: inline-block;
   text-align: center;
-  margin-left: 685px;
+  margin-left: 645px;
 }
 
 /*.nav li {
@@ -233,6 +233,15 @@ th, td {
 
 
 /**** RESTAURANT ****/
+
+.restaurantDescription {
+  line-height: 10px;
+  color: grey;
+}
+
+.menu {
+  color: grey;
+}
 
 .glyphicon {
    font-family:'Glyphicons Halflings' !important;
