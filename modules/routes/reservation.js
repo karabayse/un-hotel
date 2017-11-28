@@ -12,6 +12,7 @@ var reservationSchema = new mongoose.Schema({
 }); // end reservationSchema
 var reservationModel = mongoose.model('reservationModel', reservationSchema);
 
+
 router.post('/', function(req, res) {
   console.log('reservation url hit', req.body);
   var newReservation = req.body;
@@ -21,7 +22,7 @@ router.post('/', function(req, res) {
   }).catch(function(err) {
     console.log('error', err);
   });
-}); // end router.post for reservation 
+}); // end router.post for reservation
 
 
 

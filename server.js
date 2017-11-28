@@ -7,6 +7,8 @@ var bodyParser = require('body-parser');
 var reservation = require('./modules/routes/reservation');
 var mongoose = require('mongoose');
 
+mongoose.connect('localhost:27017/reservationDB');
+
 // uses
 app.use(express.static('public'));
 app.use('/', index);
