@@ -68,16 +68,6 @@
   <p>Enregistrement <input type="date" id="date" ng-model="roc.checkInInput" required="required"></p>
   <p>Check-out <input type="date" id="date" ng-model="roc.checkOutInput" required="required"></p>
 
-  <!-- Le Lit<div class="dropdown">
-  <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
-  <span class="caret"></span></button>
-  <ul class="dropdown-menu">
-    <li>Roi</li>
-    <li>Reine</li>
-    <li>Double</li>
-  </ul>
-</div> -->
-
 <p>
 Le Lit <select class="bed" name="bed" required="required">
   <option ng-model="roc.bedInput" value="king">Roi</option>
@@ -88,9 +78,9 @@ Le Lit <select class="bed" name="bed" required="required">
 
 <p>
 Journées <select class="nights" name="nights" required="required">
-  <option ng-model="roc.nightsInput" value="1">1</option>
-  <option ng-model="roc.nightsInput" value="2">2</option>
-  <option ng-model="roc.nightsInput" value="3">3</option>
+  <option ng-model="roc.nightsInput" value="one">1</option>
+  <option ng-model="roc.nightsInput" value="two">2</option>
+  <option ng-model="roc.nightsInput" value="three">3</option>
 </select>
 </p>
 

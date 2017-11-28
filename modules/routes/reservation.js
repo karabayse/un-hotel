@@ -8,7 +8,7 @@ var reservationSchema = new mongoose.Schema({
   checkIn: Date,
   checkOut: Date,
   bed: String,
-  nights: Number
+  nights: String
 }); // end reservationSchema
 var reservationModel = mongoose.model('reservationModel', reservationSchema);
 
