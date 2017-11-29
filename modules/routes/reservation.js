@@ -13,6 +13,13 @@ var reservationSchema = new mongoose.Schema({
 }); // end reservationSchema
 var reservationModel = mongoose.model('reservationModel', reservationSchema);
 
+router.get('/', function(req, res){
+  console.log('reservationObject');
+  reservationModel.find().then(function(reservation) {
+    res.send(reservation);
+    console.log('reservation:', reservation);
+  });
+}); // end reservation get call 
 
 router.post('/', function(req, res) {
   console.log('reservation url hit', req.body);
