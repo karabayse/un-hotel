@@ -70,7 +70,7 @@
   <p>Check-out <input type="date" id="date" ng-model="roc.checkOutInput" required="required"></p>
 
 <p>
-Le Lit <select class="bed" name="bed" required="required">
+Le Lit <select class="bed" name="bed" ng-model="roc.bedInput" required="required">
   <option ng-model="roc.bedInput" value="king">Roi</option>
   <option ng-model="roc.bedInput" value="queen">Reine</option>
   <option ng-model="roc.bedInput" value="double">Double</option>
@@ -78,7 +78,7 @@ Le Lit <select class="bed" name="bed" required="required">
 </p>
 
 <p>
-Journées <select class="nights" name="nights" required="required">
+Journées <select class="nights" name="nights" ng-model="roc.nightsInput" required="required">
   <option ng-model="roc.nightsInput" value="one">1</option>
   <option ng-model="roc.nightsInput" value="two">2</option>
   <option ng-model="roc.nightsInput" value="three">3</option>
