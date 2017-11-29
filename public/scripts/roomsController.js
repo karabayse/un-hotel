@@ -7,6 +7,7 @@ myApp.controller('RoomsController', function(RoomsService) {
   // reservation function
   vm.reservation = function() {
     var reservationObject = {
+      name: vm.nameInput,
       checkIn: vm.checkInInput,
       checkOut: vm.checkOutInput,
       bed: vm.bedInput,
@@ -15,6 +16,7 @@ myApp.controller('RoomsController', function(RoomsService) {
     console.log('reservationObject:', reservationObject);
     RoomsService.reservation(reservationObject).then(function() {
       sweetAlert("Chambre réservé!");
+      vm.nameInput = '';
       vm.checkInInput = '';
       vm.checkOutInput = '';
       vm.bedInput = '';

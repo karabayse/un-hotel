@@ -5,6 +5,7 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var reservationSchema = new mongoose.Schema({
+  name: String,
   checkIn: Date,
   checkOut: Date,
   bed: String,
