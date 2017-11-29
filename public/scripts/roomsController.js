@@ -6,6 +6,7 @@ myApp.controller('RoomsController', function(RoomsService) {
 
   // reservation function
   vm.reservation = function() {
+    console.log('in reservation function');
     var reservationObject = {
       name: vm.nameInput,
       checkIn: vm.checkInInput,

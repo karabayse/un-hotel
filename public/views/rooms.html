@@ -38,67 +38,48 @@
       <td colspan="2">400 €</td>
       <td colspan="2">350 €</td>
     </tr>
-    <!-- <tfoot>
-    <tr>
-      <th>Total</th>
-      <td>$22M</td>
-      <td>$12.5M</td>
-    </tr>
-  </tfoot> -->
   </tbody>
 </table>
 </div>
 <br>
 
-<!-- <legend> -->
-<!-- <fieldset> -->
-<!-- <ins><h6>PRIX</h6></ins>
-<p>Roi.............600 €</p>
-<p>Reine.........500 €</p>
-<p>Double.......400 €</p> -->
-<!-- </fieldset> -->
-<!-- </legend> -->
-<!-- <br> -->
-
 <div class="reservations">
-<!-- <ins><h6>RÉSERVATIONS</h6></ins> -->
-<h3>RÉSERVATIONS</h3>
-<hr width="100%">
-<form>
-  <p>Name <input type="text" placeholder="name" ng-model="roc.nameInput" required="required"></p>
-  <p>Enregistrement <input type="date" id="date" ng-model="roc.checkInInput" required="required"></p>
-  <p>Check-out <input type="date" id="date" ng-model="roc.checkOutInput" required="required"></p>
-
-<p>
-Le Lit <select class="bed" name="bed" ng-model="roc.bedInput" required="required">
-  <option ng-model="roc.bedInput" value="king">Roi</option>
-  <option ng-model="roc.bedInput" value="queen">Reine</option>
-  <option ng-model="roc.bedInput" value="double">Double</option>
-</select>
-</p>
-
-<p>
-Journées <select class="nights" name="nights" ng-model="roc.nightsInput" required="required">
-  <option ng-model="roc.nightsInput" value="one">1</option>
-  <option ng-model="roc.nightsInput" value="two">2</option>
-  <option ng-model="roc.nightsInput" value="three">3</option>
-</select>
-</p>
-
-<button  class="btn" ng-click="roc.reservation()" type="submit"
-  name="submit" value="Soumettre">Soumettre</button>
-
-<p><input type="image" name="book" src="styles/images/book.svg" width="100" height="100" /></p>
-
-</form>
-<br>
+  <h3>RÉSERVATIONS</h3>
+  <hr width="100%">
+  <form>
+    Prénom <input type="text" ng-model="roc.nameInput" required="required">
+    <br>
+    Enregistrement <input type="date" id="date" ng-model="roc.checkInInput" required="required">
+    <br>
+    Check-out <input type="date" id="date" ng-model="roc.checkOutInput" required="required">
+    <br>
+    Le Lit <select class="bed" name="bed" ng-model="roc.bedInput" required="required">
+    <option ng-model="roc.bedInput" value="king">Roi</option>
+    <option ng-model="roc.bedInput" value="queen">Reine</option>
+    <option ng-model="roc.bedInput" value="double">Double</option>
+    </select>
+    <br>
+    Journées <select class="nights" name="nights" ng-model="roc.nightsInput" required="required">
+    <option ng-model="roc.nightsInput" value="one">1</option>
+    <option ng-model="roc.nightsInput" value="two">2</option>
+    <option ng-model="roc.nightsInput" value="three">3</option>
+    </select>
+    <br>
+    <button class="btn" ng-click="roc.reservation()">Soumettre</button>
+    <br>
+    <input type="image" name="book" src="styles/images/book.svg" width="100" height="100"/>
+  </form>
+    <br>
 </div>
+<!-- **** END RESERVATIONS DIV **** -->
+
 
 <div class="top">
   <a href="#top" class="topLink">HAUT</a>
 </div>
 
 </div>
+<!-- **** END CONTAINER CLASS **** -->
 
 <br>
 <footer>
