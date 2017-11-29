@@ -13,7 +13,7 @@ router.get('/*', function(req, res) {
 }); // end router.get for index.html
 
 router.get('/rooms', function(req, res) {
-  console.log('restaurant url hit');
+  console.log('rooms url hit');
   res.sendFile(path.resolve('views/rooms.html'));
 }); // end router.get for rooms.html
 
