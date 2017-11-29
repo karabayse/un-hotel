@@ -49,23 +49,29 @@
   <form>
     Prénom <input type="text" ng-model="roc.nameInput" required="required">
     <br>
+    <br>
     Enregistrement <input type="date" id="date" ng-model="roc.checkInInput" required="required">
+    <br>
     <br>
     Check-out <input type="date" id="date" ng-model="roc.checkOutInput" required="required">
     <br>
+    <br>
     Le Lit <select class="bed" name="bed" ng-model="roc.bedInput" required="required">
-    <option ng-model="roc.bedInput" value="king">Roi</option>
-    <option ng-model="roc.bedInput" value="queen">Reine</option>
-    <option ng-model="roc.bedInput" value="double">Double</option>
+    <option value="Roi">Roi</option>
+    <option value="Reine">Reine</option>
+    <option value="Double">Double</option>
     </select>
+    <br>
     <br>
     Journées <select class="nights" name="nights" ng-model="roc.nightsInput" required="required">
-    <option ng-model="roc.nightsInput" value="one">1</option>
-    <option ng-model="roc.nightsInput" value="two">2</option>
-    <option ng-model="roc.nightsInput" value="three">3</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
     </select>
     <br>
+    <br>
     <button class="btn" ng-click="roc.reservation()">Soumettre</button>
+    <br>
     <br>
     <input type="image" name="book" src="styles/images/book.svg" width="100" height="100"/>
   </form>

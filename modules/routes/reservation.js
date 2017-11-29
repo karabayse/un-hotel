@@ -9,7 +9,7 @@ var reservationSchema = new mongoose.Schema({
   checkIn: Date,
   checkOut: Date,
   bed: String,
-  nights: String
+  nights: Number
 }); // end reservationSchema
 var reservationModel = mongoose.model('reservationModel', reservationSchema);
 
@@ -19,7 +19,7 @@ router.get('/', function(req, res){
     res.send(reservation);
     console.log('reservation:', reservation);
   });
-}); // end reservation get call 
+}); // end reservation get call
 
 router.post('/', function(req, res) {
   console.log('reservation url hit', req.body);
