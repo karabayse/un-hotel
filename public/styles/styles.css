@@ -26,24 +26,7 @@
   box-sizing: border-box;
 }
 
-/*All major web browsers have a default stylesheet they use in the absence of an external stylesheet.
-These default stylesheets are known as user agent stylesheets. In this case, the term "user agent" is a technical term for the browser.
 
-User agent stylesheets often have default CSS rules that set default values for padding and margin. This affects how the browser displays HTML elements, which can make it difficult for a developer to design or style a web page.
-
-Many developers choose to reset these default values so that they can truly work with a clean slate.
-
-The code in the example above resets the default margin and padding values of all HTML elements. It is often the first CSS rule in an external stylesheet.
-
-Note that both properties are both set to 0. When these properties are set to 0, they do not require a unit of measurement.*/
-
-
-/*box-sizing: border-box; -->
-In the default box model, box dimensions are affected by border thickness and padding.
-The box-sizing property controls the box model used by the browser.
-The default value of the box-sizing property is content-box.
-The value for the new box model is border-box.
-The border-box model is not affected by border thickness or padding.*/
 
 /**** SITE ****/
 
@@ -58,33 +41,6 @@ header {
   margin-left: 645px;
 }
 
-/*.nav li {
-  align-content: center;
-}*/
-
-/*chaining -> makes all h1 elements with the class hotel cursive
-h1.hotel {
-  font-family: cursive;
-}*/
-
-/*nesting -> targets all h1 elements nested inside elements with class hotel
-hotel h5 {
-  font-family: cursive;
-}*/
-
-
-/*!important. !important can be applied to specific attributes instead of full rules. It will override any style no matter how specific it is. As a result, it should almost never be used. Once !important is used, it is very hard to override.
-
-The syntax of !important in CSS looks like this:
-
-p {
-  color: blue !important;
-}
-
-
-.main p {
-  color: red;
-}*/
 
 .top {
   text-align: center;
@@ -99,16 +55,6 @@ p {
 .topLink {
   color: white;
 }
-
-/*div.top {
-  width: 400px;
-  margin: 0 auto;
-}
-margin: 0 auto; will center the divs in their containing elements. The 0 sets the top and bottom margins to 0 pixels. The auto value instructs the browser to adjust the left and right margins until the element is centered within its containing element.
-
-The div elements in the example above should center within an element that fills the page, but this doesn't occur. Why?
-
-In order to center an element, a width must be set for that element. Otherwise, the width of the div will be automatically set to the full width of its containing element, like the <body>, for example. It's not possible to center an element that takes up the full width of the page.*/
 
 footer {
   text-align: center;
