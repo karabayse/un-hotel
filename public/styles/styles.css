@@ -38,9 +38,9 @@ header {
 .nav {
   display: inline-block;
   text-align: center;
-  margin-left: 645px;
+  /*margin-left: 645px;*/
+  margin-left: 39%;
 }
-
 
 .top {
   text-align: center;
@@ -70,7 +70,8 @@ footer {
 
 .backgroundDiv {
   margin-top: -2em;
-  min-height: 853px;
+  /*min-height: 853px;*/
+  min-height: 953px;
   background: linear-gradient(
       rgba(0, 0, 0, 0.05),
       rgba(0, 0, 0, 0.05)
