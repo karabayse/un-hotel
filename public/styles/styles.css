@@ -84,14 +84,8 @@ footer {
 .welcome {
   text-align: center;
   opacity: .75;
-  /*border: 3px solid grey;*/
-           /*these 4 values correspond to the amount of padding in a clockwise rotation */
-  /*padding: 6px 11px 4px 9px;*/
-  /*if top and bottom values for padding equal each other, and left and right
-  values equal each other, use:  padding: 5px 10px;*/
   margin-left: 200px;
   margin-right: 200px;
-  /*margin refers to space directly outside of the box */
 }
 
 
@@ -104,15 +98,22 @@ footer {
 
 .eiffelTowerHistory {
   color: grey;
+  text-align: justify;
+}
+
+#tourEiffel {
+  font-family: "Petit Formal Script", cursive;
 }
 
 .learnMore {
   text-align: center;
-  font-size: 20px;
 }
 
 .learnMoreLink {
   color: grey;
+  font-size: 15px;
+  text-align: center;
+  font-family: "Petit Formal Script", cursive;
 }
 
 
@@ -121,7 +122,6 @@ footer {
 
 #roomsContainer,
 .reservations {
-  /*background-color: #FFEFD5;*/
 }
 
 #roomImage {
@@ -141,7 +141,6 @@ figcaption {
 
 .reservations {
   border: 5px groove grey;
-  /*border-radius: 100%;*/
   text-align: center;
   height: 40%;
   left: 10%;
@@ -154,12 +153,6 @@ figcaption {
 #reservations {
   font-family: "Petit Formal Script", cursive;
 }
-
-/*table, th, td {
-  border: 1px solid orange;
-  font-family: Helvetica, sans-serif;
-  text-align: center;
-}*/
 
 table {
   height: 40%;
@@ -198,14 +191,20 @@ th, td {
 
 /**** RESTAURANT ****/
 
+#contexteDeRestaurant {
+  font-family: "Petit Formal Script", cursive;
+}
+
 .restaurantDescription {
   line-height: 10px;
   color: grey;
+  text-align: justify;
 }
 
 .menu {
   color: grey;
   width: 50%;
+  text-align: justify;
 }
 
 #menuDeLaMer {
