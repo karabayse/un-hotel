@@ -35,13 +35,6 @@ header {
   font-family: "Petit Formal Script", cursive;
 }
 
-.nav {
-  display: inline-block;
-  text-align: center;
-  /*margin-left: 645px;*/
-  margin-left: 39%;
-}
-
 .top {
   text-align: center;
   background: #8A360F;
@@ -54,6 +47,11 @@ header {
 
 .topLink {
   color: white;
+}
+
+a {
+  color: black;
+  letter-spacing: 0.5em;
 }
 
 footer {
@@ -126,8 +124,19 @@ footer {
   /*background-color: #FFEFD5;*/
 }
 
+#roomImage {
+  height: 524px;
+  width: 736px;
+}
+
+figure {
+  text-align: center;
+}
+
 figcaption {
   color: grey;
+  text-align: center;
+  font-family: cursive;
 }
 
 .reservations {
@@ -140,6 +149,10 @@ figcaption {
   /*overflow-y: scroll;*/
   position: static;
   width: 80%;
+}
+
+#reservations {
+  font-family: "Petit Formal Script", cursive;
 }
 
 /*table, th, td {
@@ -192,6 +205,11 @@ th, td {
 
 .menu {
   color: grey;
+  width: 50%;
+}
+
+#menuDeLaMer {
+  font-family: "Petit Formal Script", cursive;
 }
 
 .glyphicon {
