@@ -1,5 +1,64 @@
 <div ng-controller="RestaurantController as rec" class="container" id="restaurantContainer">
 
+
+<!-- **** CAROUSEL **** -->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="styles/images/baguettes.jpeg" alt="Baguettes" class="img-responsive">
+      <div class="carousel-caption">
+        <h3>Baguettes</h3>
+        <p>cuit frais tous les jours</p>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="styles/images/french-toast.jpg" alt="French Toast" class="img-responsive">
+      <div class="carousel-caption">
+        <h3>Pain Perdu</h3>
+        <p>recouvert de sirop d'érable</p>
+      </div>
+    </div>
+
+    <div class="item">
+        <img src="styles/images/french-onion-soup.jpeg" alt="Onion Soup"
+        title="Onion Soup" class="img-responsive">
+        <div class="carousel-caption">
+          <h3>Soupe aux Oignons</h3>
+          <p>fait avec du gruyère</p>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
+    <span class="icon-prev"></span>
+    <span class="sr-only">précédent</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
+    <span class="icon-next"></span>
+    <span class="sr-only">prochain</span>
+  </a>
+</div>
+<!-- FOR BOOTSTRAP CAROUSEL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!-- source below affects navbar link positioning -->
+<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/> -->
+<br>
+
+
 <div class="row">
   <div class="col-sm-6">
     <img src="styles/images/restaurant.jpg" alt="restaurant photo"
@@ -45,63 +104,6 @@
 </div>
 
 
-<!-- **** CAROUSEL **** -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner">
-    <div class="item active">
-      <img src="styles/images/french-onion-soup.jpeg" alt="Onion Soup"
-      title="Onion Soup" class="img-responsive">
-      <div class="carousel-caption">
-        <h3>Onion Soup</h3>
-        <p>(ingredients here)</p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="styles/images/baguettes.jpeg" alt="Baguettes" class="img-responsive">
-      <div class="carousel-caption">
-        <h3>Baguettes</h3>
-        <p>(ingredients here)</p>
-      </div>
-    </div>
-
-    <div class="item">
-      <img src="styles/images/french-toast.jpg" alt="French Toast" class="img-responsive">
-      <div class="carousel-caption">
-        <h3>French Toast</h3>
-        <p>(ingredients here)</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <!-- <span class="glyphicon glyphicon-chevron-left"></span> -->
-    <span class="icon-prev"></span>
-    <span class="sr-only">précédent</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <!-- <span class="glyphicon glyphicon-chevron-right"></span> -->
-    <span class="icon-next"></span>
-    <span class="sr-only">prochain</span>
-  </a>
-</div>
-<!-- FOR BOOTSTRAP CAROUSEL -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<!-- source below affects navbar link positioning -->
-<!-- <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/> -->
-<br>
-
-
 <!-- VEGETABLE IMAGE WITH LABEL OPACITY -->
 <div class="vegetablesImage">
   <p class="vegetablesCaption">des légumes</p>
@@ -109,8 +111,8 @@
 <br>
 
 
-<iframe src="https://www.google.com/maps/place/Montmartre,+75018+Paris,+France/@48.886222,2.3291445,15z/data=!3m1!4b1!4m5!3m4!1s0x47e66e44d4c0f5d5:0x7dd44a8503e08670!8m2!3d48.8867148!4d2.3388895"
-  width="400" height="300"></iframe>
+<!-- <iframe src="https://www.google.com/maps/place/Montmartre,+75018+Paris,+France/@48.886222,2.3291445,15z/data=!3m1!4b1!4m5!3m4!1s0x47e66e44d4c0f5d5:0x7dd44a8503e08670!8m2!3d48.8867148!4d2.3388895"
+  width="400" height="300"></iframe> -->
 
 
 <div class="top text-center">
