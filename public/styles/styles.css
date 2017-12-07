@@ -244,8 +244,8 @@ th, td {
   min-height: 600px;
 }
 
-.vegetablesImage {
-  background-image: url("/styles/images/vegetables2.jpg");
+#basque-cake {
+  background-image: url("/styles/images/basque-cake.jpg");
   /*background-size: cover;*/
   background-position: center;
   /*background-position: bottom center;*/
@@ -253,7 +253,25 @@ th, td {
   width: 300px;
 }
 
-.vegetablesCaption {
+#bouillabaisse {
+  background-image: url("/styles/images/bouillabaisse.jpg");
+  /*background-size: cover;*/
+  background-position: center;
+  /*background-position: bottom center;*/
+  height: 300px;
+  width: 300px;
+}
+
+#lentille-cassoulet {
+  background-image: url("/styles/images/lentil-cassoulet.jpg");
+  /*background-size: cover;*/
+  background-position: center;
+  /*background-position: bottom center;*/
+  height: 300px;
+  width: 300px;
+}
+
+.foodImageCaption {
   background-color: white;
   color: black;
   display: block;
