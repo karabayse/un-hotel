@@ -55,6 +55,10 @@ header {
   letter-spacing: 0.5em;
 }
 
+.container {
+  background-color: white;
+}
+
 footer {
   text-align: center;
   color: white;
@@ -93,6 +97,10 @@ footer {
 
 /**** HISTORY ****/
 
+#historyContainer {
+  background-color: #F4F4F4;
+}
+
 .video {
   text-align: center;
 }
@@ -123,6 +131,10 @@ footer {
 
 #roomsContainer,
 .reservations {
+}
+
+#roomsContainer {
+  background-color: #F4F4F4;
 }
 
 #roomImage {
@@ -196,6 +208,10 @@ th, td {
 
 
 /**** RESTAURANT ****/
+
+#restaurantContainer {
+  background-color: #F4F4F4;
+}
 
 #contexteDeRestaurant {
   font-family: "Petit Formal Script", cursive;

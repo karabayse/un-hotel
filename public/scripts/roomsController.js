@@ -5,7 +5,7 @@ myApp.controller('RoomsController', function(RoomsService) {
   var vm = this;
 
   // reservation function
-  vm.reservation = function() {
+  vm.reservationRequest = function() {
     console.log('in reservation function');
     var reservationObject = {
       name: vm.nameInput,
@@ -15,7 +15,7 @@ myApp.controller('RoomsController', function(RoomsService) {
       nights: vm.nightsInput
     }; // end reservationObject
     console.log('reservationObject:', reservationObject);
-    RoomsService.reservation(reservationObject).then(function() {
+    RoomsService.reservationRequest(reservationObject).then(function() {
       sweetAlert("Chambre réservé!");
       vm.nameInput = '';
       vm.checkInInput = '';
