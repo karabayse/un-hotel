@@ -35,6 +35,15 @@ header {
   font-family: "Petit Formal Script", cursive;
 }
 
+.navLinks {
+  color: black;
+  letter-spacing: 0.5em;
+}
+
+.container {
+  background-color: white;
+}
+
 .top {
   text-align: center;
   /*background: #8A360F;*/
@@ -48,15 +57,6 @@ header {
 
 .topLink {
   color: white;
-}
-
-.navLinks {
-  color: black;
-  letter-spacing: 0.5em;
-}
-
-.container {
-  background-color: white;
 }
 
 footer {
@@ -154,22 +154,6 @@ figcaption {
   font-family: cursive;
 }
 
-.reservations {
-  border: 5px groove grey;
-  text-align: center;
-  height: 40%;
-  left: 10%;
-  margin: 20px auto;
-  /*overflow-y: scroll;*/
-  position: static;
-  /*width: 80%;*/
-  width: 1000px;
-}
-
-#reservations {
-  font-family: "Petit Formal Script", cursive;
-}
-
 table {
   height: 40%;
   left: 10%;
@@ -201,8 +185,24 @@ th, td {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
   padding: 20px;
-  text-align: left;
-  width: 33.3333%;
+  text-align: center;
+  /*width: 33.3333%;*/
+}
+
+.reservations {
+  border: 5px groove grey;
+  text-align: center;
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  /*overflow-y: scroll;*/
+  position: static;
+  /*width: 80%;*/
+  width: 1000px;
+}
+
+#reservations {
+  font-family: "Petit Formal Script", cursive;
 }
 
 
@@ -229,7 +229,7 @@ th, td {
   text-align: justify;
 }
 
-#menuDeLaMer {
+#currentMenu {
   font-family: "Petit Formal Script", cursive;
 }
 
