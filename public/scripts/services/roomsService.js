@@ -5,6 +5,7 @@ myApp.service('RoomsService', function($http) {
 
   // POST for reservation
   sv.reservationRequest = function(reservationRequest) {
+    console.log('in reservationRequest POST in roomsService.js');
     return $http({
       method: 'POST',
       url: '/reservation',
