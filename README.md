@@ -1,15 +1,21 @@
-Un Hotel
-========
-Full stack application proof of concept
+![Un Hotel Home Page](un-hotel-home.png)
 
-Technologies Used
------------------
-- [X] JavaScript
-- [X] AngularJS
-- [X] AngularJS
-- [X] MongoDB
-- [X] Express.js
-- [X] Node.js
-- [X] HTML5
-- [X] CSS
-- [X] Bootstrap
+# Un hotel
+
+Full MEAN stack application hotel proof of concept:
+Users have the ability to reserve a hotel room
+
+## Technologies Used
+
+* JavaScript
+* AngularJS
+* AngularJS
+* MongoDB
+* Express.js
+* Node.js
+* HTML5
+* CSS
+* Bootstrap
+
+## Why I created this application
+To practice the MEAN stack while enhancing my HTML and CSS skills
