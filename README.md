@@ -1,6 +1,6 @@
 ![Un Hotel Home Page](un-hotel-home.png)
 
-# Un hotel
+# Un Hotel
 
 Full MEAN stack application hotel proof of concept:
 Users have the ability to reserve a hotel room
@@ -19,3 +19,6 @@ Users have the ability to reserve a hotel room
 
 ## Why I created this application
 To practice the MEAN stack while enhancing my HTML and CSS skills
+
+### Rooms View
+![Un Hotel Rooms View](un-hotel-rooms.png)
