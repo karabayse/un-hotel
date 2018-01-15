@@ -244,8 +244,8 @@ th, td {
   min-height: 600px;
 }
 
-#basque-cake {
-  background-image: url("/styles/images/basque-cake.jpg");
+#basque-gateau {
+  background-image: url("/styles/images/basque-gateau.jpg");
   /*background-size: cover;*/
   background-position: center;
   /*background-position: bottom center;*/
