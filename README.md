@@ -25,5 +25,5 @@ To practice the MEAN stack while enhancing my HTML, CSS, and Bootstrap skills
 ![Un Hotel Rooms View 2](un-hotel-rooms2.png)
 
 ### Restaurant View
-![Un Hotel Restaurant View](un-hotel-restaurant0.png)
+![Un Hotel Restaurant View](un-hotel-restaurant.png)
 ![Un Hotel Restaurant View](un-hotel-restaurant2.png)
