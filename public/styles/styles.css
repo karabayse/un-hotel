@@ -1,4 +1,4 @@
-/**** SPACE MONO ****/
+/*** PETIT FORMAL SCRIPT ***/
 
 @font-face {
   font-family: 'Petit Formal Script';
@@ -18,7 +18,7 @@
 
 
 
-/**** USER AGENT ****/
+/*** USER AGENT ***/
 
 * {
   margin: 0;
@@ -28,7 +28,7 @@
 
 
 
-/**** SITE ****/
+/*** SITE ***/
 
 header {
   text-align: center;
@@ -46,7 +46,6 @@ header {
 
 .top {
   text-align: center;
-  /*background: #8A360F;*/
   background: #B8860B;
   border-radius: 3px;
   display: inline-block;
@@ -69,11 +68,10 @@ footer {
 
 
 
-/**** HOME ****/
+/*** HOME ***/
 
 .backgroundDiv {
   margin-top: -2em;
-  /*min-height: 853px;*/
   min-height: 953px;
   background: linear-gradient(
       rgba(0, 0, 0, 0.05),
@@ -95,7 +93,7 @@ footer {
 
 
 
-/**** HISTORY ****/
+/*** HISTORY ***/
 
 #historyContainer {
   background-color: #F4F4F4;
@@ -127,7 +125,7 @@ footer {
 
 
 
-/**** ROOMS ****/
+/*** ROOMS ***/
 
 #roomsContainer,
 .reservations {
@@ -140,8 +138,6 @@ footer {
 #roomImage {
   height: 630px;
   width: 1000px;
-  /*height: 524px;
-  width: 736px;*/
 }
 
 figure {
@@ -160,12 +156,10 @@ table {
   margin: 20px auto;
   overflow-y: scroll;
   position: static;
-  /*width: 80%; */
   width: 1000px;
 }
 
 thead th {
-  /*background: #8A360F;*/
   background: #9AC0CD;
   color: #FFF;
   font-family: 'Lato', sans-serif;
@@ -186,7 +180,6 @@ th, td {
   font-weight: 400;
   padding: 20px;
   text-align: left;
-  /*width: 33.3333%;*/
 }
 
 .reservations {
@@ -195,9 +188,7 @@ th, td {
   height: 40%;
   left: 10%;
   margin: 20px auto;
-  /*overflow-y: scroll;*/
   position: static;
-  /*width: 80%;*/
   width: 1000px;
 }
 
@@ -207,7 +198,7 @@ th, td {
 
 
 
-/**** RESTAURANT ****/
+/*** RESTAURANT ***/
 
 #restaurantContainer {
   background-color: #F4F4F4;
@@ -246,27 +237,21 @@ th, td {
 
 #basque-gateau {
   background-image: url("/styles/images/basque-gateau.jpg");
-  /*background-size: cover;*/
   background-position: center;
-  /*background-position: bottom center;*/
   height: 300px;
   width: 300px;
 }
 
 #bouillabaisse {
-  background-image: url("/styles/images/bouillabaisse.jpg");
-  /*background-size: cover;*/
+  background-image: url("/styles/images/bouillabaisse.jpg");/
   background-position: center;
-  /*background-position: bottom center;*/
   height: 300px;
   width: 300px;
 }
 
 #lentille-cassoulet {
   background-image: url("/styles/images/lentil-cassoulet.jpg");
-  /*background-size: cover;*/
   background-position: center;
-  /*background-position: bottom center;*/
   height: 300px;
   width: 300px;
 }
@@ -289,7 +274,7 @@ th, td {
 
 
 
-/**** FUTURE ****/
+/*** FUTURE ***/
 
 .future {
   visibility: hidden;

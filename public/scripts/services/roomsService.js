@@ -11,7 +11,7 @@ myApp.service('RoomsService', function($http) {
       url: '/reservation',
       data: reservationRequest
     }).then(function(response) {
-      console.log('back from requestReservation post:', response);
+      console.log('back from reservcationRequest POST:', response);
     });
   }; // end reservation
 

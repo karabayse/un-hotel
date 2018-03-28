@@ -1,14 +1,11 @@
-![Un Hotel Home Page](un-hotel-home.png)
+![Un Hotel Home View](un-hotel-home.png)
 
 # Un Hotel
-
 Full MEAN stack application hotel proof of concept:
 Users have the ability to reserve a hotel room
 
 ## Technologies Used
-
 * JavaScript
-* AngularJS
 * AngularJS
 * MongoDB
 * Express.js
@@ -18,7 +15,7 @@ Users have the ability to reserve a hotel room
 * Bootstrap
 
 ## Why I created this application
-To practice the MEAN stack while enhancing my HTML, CSS, and Bootstrap skills
+To practice the MEAN stack while enhancing my HTML, CSS, Bootstrap, and general web design skills
 
 ### Rooms View
 ![Un Hotel Rooms View](un-hotel-rooms.png)
